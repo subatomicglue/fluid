@@ -46,7 +46,7 @@ to CMakeLists.txt, after the line
 project(Box2D)
 ```
 
-## If you get:
+## If you get 'shifting a negative signed value is undefined':
 ```
 liquidfun/Box2D/Box2D/Particle/b2ParticleSystem.cpp:55:57: error: shifting a negative signed value is undefined [-Werror,-Wshift-negative-value]
                                                     (-1 << xShift));
