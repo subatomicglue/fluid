@@ -1,10 +1,12 @@
 
+# clone of google's liquidfun
+
 Clone of
-http://google.github.io/liquidfun/
+- http://google.github.io/liquidfun/
 
 
 Build it:
-   https://google.github.io/liquidfun/Building/html/md__building_o_s_x.html
+- https://google.github.io/liquidfun/Building/html/md__building_o_s_x.html
 
 ```
 cd liquidfun/Box2D
@@ -24,23 +26,33 @@ Executing a Sample
 
 
 
-ERRORS:
+# ERRORS:
+
+If you download latest source from [liquidfun](http://google.github.io/liquidfun/), or from their [releases](https://github.com/google/liquidfun/releases), you may find errors (I found these in the 1.1.0 release).
 
 If you get linker problems with X11
-   clang: error: no such file or directory: '/opt/local/lib/libX11.dylib'
-   clang: error: no such file or directory: '/opt/local/lib/libXext.dylib'
-   clang: error: no such file or directory: '/opt/local/lib/libXrandr.dylib'
+```
+clang: error: no such file or directory: '/opt/local/lib/libX11.dylib'
+clang: error: no such file or directory: '/opt/local/lib/libXext.dylib'
+clang: error: no such file or directory: '/opt/local/lib/libXrandr.dylib'
+```
 
 add
-   find_package (Threads)
+```
+find_package (Threads)
+```
 to CMakeLists.txt, after the line
-   project(Box2D)
-
+```
+project(Box2D)
+```
 
 If you get:
-   liquidfun/Box2D/Box2D/Particle/b2ParticleSystem.cpp:55:57: error: shifting a
-   negative signed value is undefined [-Werror,-Wshift-negative-value]
+```
+liquidfun/Box2D/Box2D/Particle/b2ParticleSystem.cpp:55:57: error: shifting a negative signed value is undefined [-Werror,-Wshift-negative-value]
                                                     (-1 << xShift));
+```
 Change it to:
+```
                                                     -(1L << xShift));
+```
 
