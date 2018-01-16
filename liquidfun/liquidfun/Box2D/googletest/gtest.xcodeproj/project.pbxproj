@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2D81116576FE44EC9743A9CA /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3CEFF17C2ACB42D1AA6E7C1C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3643E864F27448539DC9B5CD /* CMake Rules */,
+			);
+			dependencies = (
+				57D10431D2784C709076DD23 /* PBXTargetDependency */,
+				CDD3820253D442B2BA4F147A /* PBXTargetDependency */,
+				778745C5AB95452386D84ABF /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		3CC4D7615A8248BB9108F6EF /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D2014A7B0E3442D6AF28A9A0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				AC58C82A584C446DA2E847E3 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		6D463A442D2E4C658FC4FFE0 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 398A54AA6502412E92831310 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				C21A80FEEA084F2D8BC64C57 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				607C943C5DFB42518EF64D69 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		27E0640725854C59BF5132CC /* /Users/kevinmeinert/src/liquidfun/lf/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DF63950BA3E142C2A7EFFB9A /* /Users/kevinmeinert/src/liquidfun/lf/googletest/CMakeLists.txt */; };
+		76A9CD3480F94654AC5A92B5 /* /Users/kevinmeinert/src/liquidfun/lf/googletest/src/gtest_main.cc */ = {isa = PBXBuildFile; fileRef = 6ADB9B41B4494134AA7850AD /* /Users/kevinmeinert/src/liquidfun/lf/googletest/src/gtest_main.cc */; };
+		C0341F4F3FCB43ACB72ADE6A /* /Users/kevinmeinert/src/liquidfun/lf/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C6D485DA4E06413386437900 /* /Users/kevinmeinert/src/liquidfun/lf/googletest/CMakeLists.txt */; };
+		D3D378C199654CAF93760C57 /* /Users/kevinmeinert/src/liquidfun/lf/googletest/src/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = 9DEB28AF3A864361A4E28DA8 /* /Users/kevinmeinert/src/liquidfun/lf/googletest/src/gtest-all.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1F3C4402E2514C3C83EFBB5B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		8961E6568FF1476B969C8795 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		D4F6C03E9D3B4258BDF5B861 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		EC72B48972284AC09D1E1214 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		00F2AA31148042E19BA06E67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F92E8CBBF6D4F989A9BC349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D81116576FE44EC9743A9CA;
+			remoteInfo = ALL_BUILD;
+		};
+		11972932ED9A463DB4FBF7A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F92E8CBBF6D4F989A9BC349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 006BFDCA171446869D0CDBFF;
+			remoteInfo = gtest_main;
+		};
+		266FC4F830DF494EB2A8131C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F92E8CBBF6D4F989A9BC349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E6F73C583C416EA28AF8F9;
+			remoteInfo = gtest;
+		};
+		66B9AFCB5AE1410B9265D3F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F92E8CBBF6D4F989A9BC349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E6F73C583C416EA28AF8F9;
+			remoteInfo = gtest;
+		};
+		88C1B73266724596A56A239F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F92E8CBBF6D4F989A9BC349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CC4D7615A8248BB9108F6EF;
+			remoteInfo = ZERO_CHECK;
+		};
+		895674E7B4844A9684433240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F92E8CBBF6D4F989A9BC349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CC4D7615A8248BB9108F6EF;
+			remoteInfo = ZERO_CHECK;
+		};
+		CFE545A4772D4EA7ACD73642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F92E8CBBF6D4F989A9BC349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CC4D7615A8248BB9108F6EF;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D9718D07EC54D1C916D5D8F /* /Users/kevinmeinert/src/liquidfun/lf/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6ADB9B41B4494134AA7850AD /* /Users/kevinmeinert/src/liquidfun/lf/googletest/src/gtest_main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gtest_main.cc; path = src/gtest_main.cc; sourceTree = SOURCE_ROOT; };
+		8A7D94C916404103ACA27B43 /* gtest_main */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest_main.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEB28AF3A864361A4E28DA8 /* /Users/kevinmeinert/src/liquidfun/lf/googletest/src/gtest-all.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "gtest-all.cc"; path = "src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
+		C6D485DA4E06413386437900 /* /Users/kevinmeinert/src/liquidfun/lf/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C85059A0BA374DA8A340DC79 /* /Users/kevinmeinert/src/liquidfun/lf/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DF63950BA3E142C2A7EFFB9A /* /Users/kevinmeinert/src/liquidfun/lf/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E87479E23D84480AAD709743 /* gtest */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		47D10A9C90B8444E98D1F041 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				7BEC6C75DEE441F4BCAC853D /* CMake Rules */,
+				C85059A0BA374DA8A340DC79 /* /Users/kevinmeinert/src/liquidfun/lf/googletest/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		4D8E072018214DBB84394C52 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DEB28AF3A864361A4E28DA8 /* /Users/kevinmeinert/src/liquidfun/lf/googletest/src/gtest-all.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		65E23461EA49439BB07924DA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ADB9B41B4494134AA7850AD /* /Users/kevinmeinert/src/liquidfun/lf/googletest/src/gtest_main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7BEC6C75DEE441F4BCAC853D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		963998248AC047E38E925B2D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AC9A271A570E486E980B114B = {
+			isa = PBXGroup;
+			children = (
+				F6043F5D2EB945F5A13FD898 /* gtest_main */,
+				FCE05BF64A2F473A99674338 /* gtest */,
+				C59AE46D1197488DA86CE4FF /* ALL_BUILD */,
+				47D10A9C90B8444E98D1F041 /* ZERO_CHECK */,
+				E56F270414F44144B889EA6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C59AE46D1197488DA86CE4FF /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				963998248AC047E38E925B2D /* CMake Rules */,
+				0D9718D07EC54D1C916D5D8F /* /Users/kevinmeinert/src/liquidfun/lf/googletest/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E56F270414F44144B889EA6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E87479E23D84480AAD709743 /* gtest */,
+				8A7D94C916404103ACA27B43 /* gtest_main */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6043F5D2EB945F5A13FD898 /* gtest_main */ = {
+			isa = PBXGroup;
+			children = (
+				65E23461EA49439BB07924DA /* Source Files */,
+				DF63950BA3E142C2A7EFFB9A /* /Users/kevinmeinert/src/liquidfun/lf/googletest/CMakeLists.txt */,
+			);
+			name = gtest_main;
+			sourceTree = "<group>";
+		};
+		FCE05BF64A2F473A99674338 /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				4D8E072018214DBB84394C52 /* Source Files */,
+				C6D485DA4E06413386437900 /* /Users/kevinmeinert/src/liquidfun/lf/googletest/CMakeLists.txt */,
+			);
+			name = gtest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		006BFDCA171446869D0CDBFF /* gtest_main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC8E736EF784B5D9F7A9D45 /* Build configuration list for PBXNativeTarget "gtest_main" */;
+			buildPhases = (
+				83239DC020B7420088C7EB6C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98FA5D884EFE47AEA03439EC /* PBXTargetDependency */,
+				C71A148BCE0141479A13C8C7 /* PBXTargetDependency */,
+			);
+			name = gtest_main;
+			productName = gtest_main;
+			productReference = 8A7D94C916404103ACA27B43 /* gtest_main */;
+			productType = "com.apple.product-type.library.static";
+		};
+		66E6F73C583C416EA28AF8F9 /* gtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4D2DED8CCA42B981C49EC1 /* Build configuration list for PBXNativeTarget "gtest" */;
+			buildPhases = (
+				CC0BAD861E59423D80FB4D4C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B7085D86D0041A391DFC02B /* PBXTargetDependency */,
+			);
+			name = gtest;
+			productName = gtest;
+			productReference = E87479E23D84480AAD709743 /* gtest */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F92E8CBBF6D4F989A9BC349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 6F46B44C767840BDB6C661E3 /* Build configuration list for PBXProject "gtest" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				1F3C4402E2514C3C83EFBB5B /* Debug */,
+				EC72B48972284AC09D1E1214 /* Release */,
+				D4F6C03E9D3B4258BDF5B861 /* MinSizeRel */,
+				8961E6568FF1476B969C8795 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = AC9A271A570E486E980B114B;
+			projectDirPath = /Users/kevinmeinert/src/liquidfun/lf/googletest;
+			projectRoot = "";
+			targets = (
+				2D81116576FE44EC9743A9CA /* ALL_BUILD */,
+				3CC4D7615A8248BB9108F6EF /* ZERO_CHECK */,
+				66E6F73C583C416EA28AF8F9 /* gtest */,
+				006BFDCA171446869D0CDBFF /* gtest_main */,
+				6D463A442D2E4C658FC4FFE0 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		218B2F702ECE4BF989205798 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3643E864F27448539DC9B5CD /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest -f /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		816E79C533844CE48881377A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		843258C854FC475C82A4C702 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AC58C82A584C446DA2E847E3 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest -f /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C21A80FEEA084F2D8BC64C57 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest -f /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83239DC020B7420088C7EB6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A9CD3480F94654AC5A92B5 /* /Users/kevinmeinert/src/liquidfun/lf/googletest/src/gtest_main.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0BAD861E59423D80FB4D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D378C199654CAF93760C57 /* /Users/kevinmeinert/src/liquidfun/lf/googletest/src/gtest-all.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57D10431D2784C709076DD23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 006BFDCA171446869D0CDBFF /* gtest_main */;
+			targetProxy = 11972932ED9A463DB4FBF7A2 /* PBXContainerItemProxy */;
+		};
+		607C943C5DFB42518EF64D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D81116576FE44EC9743A9CA /* ALL_BUILD */;
+			targetProxy = 00F2AA31148042E19BA06E67 /* PBXContainerItemProxy */;
+		};
+		778745C5AB95452386D84ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CC4D7615A8248BB9108F6EF /* ZERO_CHECK */;
+			targetProxy = CFE545A4772D4EA7ACD73642 /* PBXContainerItemProxy */;
+		};
+		98FA5D884EFE47AEA03439EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66E6F73C583C416EA28AF8F9 /* gtest */;
+			targetProxy = 266FC4F830DF494EB2A8131C /* PBXContainerItemProxy */;
+		};
+		9B7085D86D0041A391DFC02B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CC4D7615A8248BB9108F6EF /* ZERO_CHECK */;
+			targetProxy = 895674E7B4844A9684433240 /* PBXContainerItemProxy */;
+		};
+		C71A148BCE0141479A13C8C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CC4D7615A8248BB9108F6EF /* ZERO_CHECK */;
+			targetProxy = 88C1B73266724596A56A239F /* PBXContainerItemProxy */;
+		};
+		CDD3820253D442B2BA4F147A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66E6F73C583C416EA28AF8F9 /* gtest */;
+			targetProxy = 66B9AFCB5AE1410B9265D3F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38B4FF968B854B2FAEDA8203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros    -DDEBUG=1  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+			};
+			name = Debug;
+		};
+		3DDC23B66163468CBA3FD2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		56FA64628AF446229F1A0807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros     -DNDEBUG -DDEBUG=0  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+			};
+			name = Release;
+		};
+		6367C98E95574ECC9AA37497 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest/build;
+			};
+			name = MinSizeRel;
+		};
+		6EEE1BCC82E64AF0B8AD9B40 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		72031FFA1D1C449E8AEC1510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7A78D503BFB34E5A96420DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros    -DDEBUG=1  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+			};
+			name = Debug;
+		};
+		7DC91B565DEA4C00B8A07F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8BE0015B1DD147619403375C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		90BD327D0F914DA983FB0BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		96E6BF8DF576490484C17AF8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros     -DNDEBUG -DDEBUG=0  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+			};
+			name = MinSizeRel;
+		};
+		9BCC83F69DFC47A4A182E905 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros     -DNDEBUG -DDEBUG=0  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+			};
+			name = MinSizeRel;
+		};
+		9EDEC0105D6E4B2493CB5044 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A7409C8BF80E4B6B9569142F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest/build;
+			};
+			name = Debug;
+		};
+		ACAB4F01A8534A3C9384FC56 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest/build;
+			};
+			name = RelWithDebInfo;
+		};
+		B9326CBAD5F94A098474A07E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C34C40F1D7644CE5B2ED97E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest/build;
+			};
+			name = Release;
+		};
+		CDACE074199B4215B4BB1DE4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E4B72F4B4C7B4E4FB5A15D89 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros        -DNDEBUG -DDEBUG=0  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+			};
+			name = RelWithDebInfo;
+		};
+		E55F330092AD42D2986CB657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E7DBA829E7BF4401BC2D6A83 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EFB9AE60F0EA459DAE2ED71D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FCA3EFFE003341FAA2C80261 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros        -DNDEBUG -DDEBUG=0  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+			};
+			name = RelWithDebInfo;
+		};
+		FF9787F0248D40179A44A598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/googletest/include,/Users/kevinmeinert/src/liquidfun/lf/googletest);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros     -DNDEBUG -DDEBUG=0  -Wall -Werror -Wno-long-long -Wno-variadic-macros  -DGTEST_HAS_PTHREAD=1    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/googletest;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		398A54AA6502412E92831310 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55F330092AD42D2986CB657 /* Debug */,
+				90BD327D0F914DA983FB0BC5 /* Release */,
+				CDACE074199B4215B4BB1DE4 /* MinSizeRel */,
+				6EEE1BCC82E64AF0B8AD9B40 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3CEFF17C2ACB42D1AA6E7C1C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BE0015B1DD147619403375C /* Debug */,
+				3DDC23B66163468CBA3FD2DD /* Release */,
+				EFB9AE60F0EA459DAE2ED71D /* MinSizeRel */,
+				B9326CBAD5F94A098474A07E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6F46B44C767840BDB6C661E3 /* Build configuration list for PBXProject "gtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7409C8BF80E4B6B9569142F /* Debug */,
+				C34C40F1D7644CE5B2ED97E4 /* Release */,
+				6367C98E95574ECC9AA37497 /* MinSizeRel */,
+				ACAB4F01A8534A3C9384FC56 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AE4D2DED8CCA42B981C49EC1 /* Build configuration list for PBXNativeTarget "gtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A78D503BFB34E5A96420DCC /* Debug */,
+				56FA64628AF446229F1A0807 /* Release */,
+				9BCC83F69DFC47A4A182E905 /* MinSizeRel */,
+				E4B72F4B4C7B4E4FB5A15D89 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CDC8E736EF784B5D9F7A9D45 /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B4FF968B854B2FAEDA8203 /* Debug */,
+				FF9787F0248D40179A44A598 /* Release */,
+				96E6BF8DF576490484C17AF8 /* MinSizeRel */,
+				FCA3EFFE003341FAA2C80261 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D2014A7B0E3442D6AF28A9A0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72031FFA1D1C449E8AEC1510 /* Debug */,
+				7DC91B565DEA4C00B8A07F3A /* Release */,
+				E7DBA829E7BF4401BC2D6A83 /* MinSizeRel */,
+				9EDEC0105D6E4B2493CB5044 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F92E8CBBF6D4F989A9BC349 /* Project object */;
+}

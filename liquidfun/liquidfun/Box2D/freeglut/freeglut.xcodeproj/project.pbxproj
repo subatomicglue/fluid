@@ -1,0 +1,1462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2D81116576FE44EC9743A9CA /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 974F67FE895D409F8212D9DE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				36C7FBC178254E6BA0A4428A /* CMake Rules */,
+			);
+			dependencies = (
+				0B082351CE014CAF8F681D0D /* PBXTargetDependency */,
+				E27CE977D90F4806B6E6B227 /* PBXTargetDependency */,
+				AD6093E40EBC4E60A6E0431E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		3CC4D7615A8248BB9108F6EF /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BF98385835D7457AA81083BC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				930B114D293F4A038201D880 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		6D463A442D2E4C658FC4FFE0 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 95181FAC334445EFB2E77993 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				EE6CB3FFAF834AAE92F97032 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				DD5371353A5345DC87BB48C0 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0081211B6D9E46CEB868D623 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_internal_x11_glx.h */ = {isa = PBXBuildFile; fileRef = 2C2FA8C3F753413FB9BB017E /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_internal_x11_glx.h */; };
+		061E22CC27FC4DE6810FE5D5 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_callbacks.c */ = {isa = PBXBuildFile; fileRef = 34915F3F6FCB45528C8FF0F6 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_callbacks.c */; };
+		06EA3944326D4DB0A55867EF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_joystick_x11.c */ = {isa = PBXBuildFile; fileRef = D53D8C3A3A454F5AB74B11FA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_joystick_x11.c */; };
+		07B2B15E6E55498FBB80F2D6 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_init.h */ = {isa = PBXBuildFile; fileRef = E0F890A1277340B799142F0F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_init.h */; };
+		07C6A72A8CE746DFAC0171B4 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11_glx.c */ = {isa = PBXBuildFile; fileRef = A6F7F4CEC5D644B4B39F1DE8 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11_glx.c */; };
+		0B8E41D737974612AA7FDFE4 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_init.h */ = {isa = PBXBuildFile; fileRef = 1F41263D6C0948288016FDA5 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_init.h */; };
+		0CB2A9500B0A409F948A888A /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/util/xparsegeometry_repl.h */ = {isa = PBXBuildFile; fileRef = F5B23B19642C41498D6A9501 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/util/xparsegeometry_repl.h */; };
+		0E01593030184D67B0235181 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font_data.c */ = {isa = PBXBuildFile; fileRef = D6C6DBE09ECC4870A14D3B37 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font_data.c */; };
+		172251143CB943838B90E5D3 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_input_devices.c */ = {isa = PBXBuildFile; fileRef = 1EAF6A2FDF804280895A05EE /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_input_devices.c */; };
+		17524B0939F34497B0B515C8 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_structure.c */ = {isa = PBXBuildFile; fileRef = C0835D4D356C48CE995EA08A /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_structure.c */; };
+		177E59CE3CDF4855B011B6C5 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_gamemode_x11.c */ = {isa = PBXBuildFile; fileRef = 1608AEEA4FF84E0392968861 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_gamemode_x11.c */; };
+		1A0139A7B29C457C94B8C27B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_init.c */ = {isa = PBXBuildFile; fileRef = 1400BE8429EB4DF7A75829B8 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_init.c */; };
+		1B6F526DA6BC4CF2B5AF0746 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_callbacks.c */ = {isa = PBXBuildFile; fileRef = CF4F771F22374ADB8E40D5AF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_callbacks.c */; };
+		1C15AEAE66CF4061B0A5A4A6 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/util/xparsegeometry_repl.c */ = {isa = PBXBuildFile; fileRef = 737CD4D95D71457CB90E25BD /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/util/xparsegeometry_repl.c */; };
+		1FCED937F51849AC8B03C250 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gamemode.c */ = {isa = PBXBuildFile; fileRef = 9978C9CAB4BA487D94F37FC0 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gamemode.c */; };
+		20081DB26A1D4307BB128B5D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_overlay.c */ = {isa = PBXBuildFile; fileRef = 6E09E3EBA46E40529870E47D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_overlay.c */; };
+		21BF2C01988A4CBAB3966792 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_mono_roman.c */ = {isa = PBXBuildFile; fileRef = 9AD7A5E2B4474E42A9542349 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_mono_roman.c */; };
+		227055F406AB48C5BE74621C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11_glx.c */ = {isa = PBXBuildFile; fileRef = AD14DE06E42C43EEA98C0E8C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11_glx.c */; };
+		2382FC34AF994096BC71ACC9 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_xinput_x11.c */ = {isa = PBXBuildFile; fileRef = 30514905D4464B59856D9E81 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_xinput_x11.c */; };
+		24B5C78181DF4A53B2DAC386 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_videoresize.c */ = {isa = PBXBuildFile; fileRef = A6BD04876CA848159C456B05 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_videoresize.c */; };
+		26CFAC0786894558BFB2F79D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_menu_x11.c */ = {isa = PBXBuildFile; fileRef = 58B76E9324BB4EE6B2FC43CF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_menu_x11.c */; };
+		274E401B913E43409B2C4E65 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_input_devices_x11.c */ = {isa = PBXBuildFile; fileRef = BD3584DC98F14F91B8AD6162 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_input_devices_x11.c */; };
+		27BCEC7EC3E14D0FBED7A277 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_menu.c */ = {isa = PBXBuildFile; fileRef = 67B289056C874BBB8C327375 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_menu.c */; };
+		29608F0451DD4558A6B2EA09 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11_glx.h */ = {isa = PBXBuildFile; fileRef = C8DB7D5A25964ED89E3AE4BE /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11_glx.h */; };
+		2A2802C087D249218ECB1F09 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_structure_x11.c */ = {isa = PBXBuildFile; fileRef = 3965DB37498A40609F9AA994 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_structure_x11.c */; };
+		2A599723834543D2A170820F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_structure_x11.c */ = {isa = PBXBuildFile; fileRef = 3F5E275E725449C795B3FD25 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_structure_x11.c */; };
+		2A72C761C76045A598C18927 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_gamemode_x11.c */ = {isa = PBXBuildFile; fileRef = 0DCC4615EC9741CCB5FAD501 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_gamemode_x11.c */; };
+		2BBAF765935743509FC183A3 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_init.c */ = {isa = PBXBuildFile; fileRef = 994E90C457DD4EF58A1FADB4 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_init.c */; };
+		2CF8523E159E4EE196128F9C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11_glx.h */ = {isa = PBXBuildFile; fileRef = AAF22008EE0D4CF8AB4D4804 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11_glx.h */; };
+		301ABEA9530740D2B2EBA1A2 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_spaceball.c */ = {isa = PBXBuildFile; fileRef = A28186DA350243228D77232F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_spaceball.c */; };
+		351069703E5A407D804BAA20 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut_ext.h */ = {isa = PBXBuildFile; fileRef = 1A3760FF58C040F3B14261DD /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut_ext.h */; };
+		3B13BF0395F84D51BE302BBE /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/glut.h */ = {isa = PBXBuildFile; fileRef = E4D5EFA781EA490F8EFEB0F8 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/glut.h */; };
+		3BBD1B41D0D3462B843A3233 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_internal_x11.h */ = {isa = PBXBuildFile; fileRef = 3D391F11EB564C6686C72B6C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_internal_x11.h */; };
+		3BF57450D4004B53ACC773AC /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_window.c */ = {isa = PBXBuildFile; fileRef = 6E4DD8EF802145F4AA299165 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_window.c */; };
+		3CEBEAAD14F74608A4DB6D33 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_teapot.c */ = {isa = PBXBuildFile; fileRef = 5B96B092853A4764B9B502C0 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_teapot.c */; };
+		3DAFC3DB03684A17A758BF73 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/util/xparsegeometry_repl.c */ = {isa = PBXBuildFile; fileRef = 6DEEC2A6749D46218423CDE5 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/util/xparsegeometry_repl.c */; };
+		3EF799BAB73A4CD3A7FC555D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_main_x11.c */ = {isa = PBXBuildFile; fileRef = 743E1E28AF3348D1AD3FC197 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_main_x11.c */; };
+		3FC528E6B2AC42EC80EC651F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_misc.c */ = {isa = PBXBuildFile; fileRef = C1AE2E0342A34F2B9E58306B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_misc.c */; };
+		4063A782BD3E454E9A51A3B8 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_internal.h */ = {isa = PBXBuildFile; fileRef = 018DCBFAA03B4162B634E096 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_internal.h */; };
+		4475821C5B0B4A1597140FF5 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11_glx.c */ = {isa = PBXBuildFile; fileRef = 3A08D18C21D84FEBA2A98B7B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11_glx.c */; };
+		47697A4E6E1A4196AFB6DB83 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut_ext.h */ = {isa = PBXBuildFile; fileRef = B5D7884F081F4C898EB6598E /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut_ext.h */; };
+		49396B3D526248AE93ACBA31 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11.c */ = {isa = PBXBuildFile; fileRef = AD6E7698E4854793A521C29D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11.c */; };
+		4F049C9855C549EEB88AAF67 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_videoresize.c */ = {isa = PBXBuildFile; fileRef = DD6003DB983944D19868DDBF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_videoresize.c */; };
+		52C43A2E55084F10BE4A82E4 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font_data.c */ = {isa = PBXBuildFile; fileRef = 40BA6AC0486E46C5AF55ECB2 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font_data.c */; };
+		54AFBAA0C57B4242B9A01BAA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font.c */ = {isa = PBXBuildFile; fileRef = FEB1BAB623264F0497DC8760 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font.c */; };
+		58420DEAD7414D8B8620273E /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_ext_x11.c */ = {isa = PBXBuildFile; fileRef = F8324981773B4703B729C574 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_ext_x11.c */; };
+		5FA6FB99BF754E01A404DA48 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11_glx.h */ = {isa = PBXBuildFile; fileRef = D380BFEBB0F646309C09B903 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11_glx.h */; };
+		613674D03E9C4D169D4B6F57 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_cursor.c */ = {isa = PBXBuildFile; fileRef = BA68F95399B444A9B17371AD /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_cursor.c */; };
+		61AFF9E3BA334E1E85C78E74 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11.c */ = {isa = PBXBuildFile; fileRef = 8C86CE9EF8AD4668BA7ACEBF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11.c */; };
+		630FA871AAB347D983B831C6 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/util/xparsegeometry_repl.h */ = {isa = PBXBuildFile; fileRef = E45C612F06F0451C8064C829 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/util/xparsegeometry_repl.h */; };
+		6520E684E00641C79BFC2F3E /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_joystick_x11.c */ = {isa = PBXBuildFile; fileRef = EBC232B00FA046D2A097E97B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_joystick_x11.c */; };
+		66F9FEDE61EC4688AD648781 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_internal_x11.h */ = {isa = PBXBuildFile; fileRef = 6E64612CCB6844B683551B81 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_internal_x11.h */; };
+		6AA52E96F228442196FDAC63 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_teapot_data.h */ = {isa = PBXBuildFile; fileRef = AD1A5DB9D8104609BDA7FCA0 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_teapot_data.h */; };
+		6BFF7ED17E4D4A389F99CB9A /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 74EE4E4B5FA14296BD969333 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/CMakeLists.txt */; };
+		6E0AA49218934F2296D2AFF0 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut_std.h */ = {isa = PBXBuildFile; fileRef = A2394F02B93B4D04BEC59160 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut_std.h */; };
+		701B48116980456B93100EEF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11_glx.c */ = {isa = PBXBuildFile; fileRef = 5B6AA386923F43049407F003 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11_glx.c */; };
+		782D7BBBBD924F8DB66B92E9 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_spaceball.c */ = {isa = PBXBuildFile; fileRef = 9D207E753B6D406CAC563169 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_spaceball.c */; };
+		78A6A895198C4839877467FA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_init_x11.c */ = {isa = PBXBuildFile; fileRef = 0720254A9106440B826B745F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_init_x11.c */; };
+		7A1951943DC54F7A94279431 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gl2.c */ = {isa = PBXBuildFile; fileRef = C27C3DB7DB46431E9CA9AA7F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gl2.c */; };
+		7A4E758ACE934D75A5FC32EE /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_ext.c */ = {isa = PBXBuildFile; fileRef = B4795ADF9BA44707B6E8DB65 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_ext.c */; };
+		7C575BD89A45469F9D3BCF4B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_overlay.c */ = {isa = PBXBuildFile; fileRef = 3A6CF66A1F634C048EC9E14B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_overlay.c */; };
+		8087685D6E46429C8B2012EC /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_display.c */ = {isa = PBXBuildFile; fileRef = 9C330A37E77D40DD984421D4 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_display.c */; };
+		85ABDA37AC844A5CAA6E14A2 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_internal_x11_glx.h */ = {isa = PBXBuildFile; fileRef = 3320E29576894AB1BA8CB949 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_internal_x11_glx.h */; };
+		88C2FBB0C6744EFB96BB6692 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_input_devices.c */ = {isa = PBXBuildFile; fileRef = 6959500EBA5343CD8C3FF51C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_input_devices.c */; };
+		8F385EB107BD4C829772F50D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_display_x11_glx.c */ = {isa = PBXBuildFile; fileRef = 3FD4CD5EF0854E1BADCEBBBA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_display_x11_glx.c */; };
+		90F1C82F596A469E897B46CB /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_init_x11.c */ = {isa = PBXBuildFile; fileRef = B96711BC56954742BF956017 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_init_x11.c */; };
+		945B95613C3E42CF911F3C89 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11_glx.h */ = {isa = PBXBuildFile; fileRef = 4C79F0F8F17A4B509972E7FC /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11_glx.h */; };
+		998EDAE7118F455483B4AF0D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_state.c */ = {isa = PBXBuildFile; fileRef = D951C1CD99604C2CB1A34DE1 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_state.c */; };
+		9FD551A61B0744CFAA294B0C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_roman.c */ = {isa = PBXBuildFile; fileRef = 3B2273F70BD24F0A9484ABF0 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_roman.c */; };
+		A00D596C13684AAB9A879DAE /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_internal.h */ = {isa = PBXBuildFile; fileRef = 193A3DD00B9A4C2DBA9117B0 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_internal.h */; };
+		A06B7010476F4B8092DC4960 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font.c */ = {isa = PBXBuildFile; fileRef = A0F25D29478E4629AF452EE6 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font.c */; };
+		A51B7AF6975C4EF2A26C11A7 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_menu_x11.c */ = {isa = PBXBuildFile; fileRef = 9567B88F8BBD4F1CB37B3A1C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_menu_x11.c */; };
+		A7AAC6FFAA3848A59F489BFA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_state.c */ = {isa = PBXBuildFile; fileRef = D106DDCDE74640A7B04458B8 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_state.c */; };
+		A810D8C74D3A47D4A311E961 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_mono_roman.c */ = {isa = PBXBuildFile; fileRef = 9C25803C62CC432D91B65DFB /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_mono_roman.c */; };
+		A8AF6C2ED8E04D5B992CD0F5 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_teapot.c */ = {isa = PBXBuildFile; fileRef = 9FDC5F1DE8354E2A870914EB /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_teapot.c */; };
+		AC208E76FF4A4669BEE36AD0 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut.h */ = {isa = PBXBuildFile; fileRef = B7CBD2A69E4A4B03B4962D71 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut.h */; };
+		AC48FFA6BA934C7CA892288C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_menu.c */ = {isa = PBXBuildFile; fileRef = 0855466A73F44E258CC28E86 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_menu.c */; };
+		AE88B67790394F9C89230EA9 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gl2.c */ = {isa = PBXBuildFile; fileRef = 563551434A40419887959708 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gl2.c */; };
+		B02FF7D462C84875AF642743 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_cursor_x11.c */ = {isa = PBXBuildFile; fileRef = 866FE2E55AA1451BBD6E2887 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_cursor_x11.c */; };
+		B36C4718FF274640BCB576F9 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_main.c */ = {isa = PBXBuildFile; fileRef = 5F3FA809349D4B84A8B2BADA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_main.c */; };
+		B9232CB770744DDDA0ADE7AC /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gl2.h */ = {isa = PBXBuildFile; fileRef = 6A8B84AE3C234CBAB6755BD7 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gl2.h */; };
+		C001F4A0471D4477A175A088 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/glut.h */ = {isa = PBXBuildFile; fileRef = 8777593A53F1496F9E34AE68 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/glut.h */; };
+		C1BD022E7108495C90D2EB15 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut.h */ = {isa = PBXBuildFile; fileRef = 7D51C80DEBC64F6E8397D27F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut.h */; };
+		C61E0143624A4273B65946FD /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11.c */ = {isa = PBXBuildFile; fileRef = F2A32FDED6C44929B08D8EA7 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11.c */; };
+		C6FE387C2AFC4B33A50F95ED /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_roman.c */ = {isa = PBXBuildFile; fileRef = 10E5B4DD7B0741F3A32A18FA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_roman.c */; };
+		C7A1CF160E244E1B95FDF671 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_joystick.c */ = {isa = PBXBuildFile; fileRef = ED4E165FA35C4C3EBB83F287 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_joystick.c */; };
+		C9CC6F60369D4DDF8EB64CC2 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_glutfont_definitions_x11.c */ = {isa = PBXBuildFile; fileRef = 37E5E0518A054AE9AEAE642B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_glutfont_definitions_x11.c */; };
+		CAC97D147BDF486B899CBF3C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_ext.c */ = {isa = PBXBuildFile; fileRef = DC8CFDA7A8D84E5198C37C80 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_ext.c */; };
+		CE797D578BDA4B6696EDA374 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_structure.c */ = {isa = PBXBuildFile; fileRef = 0864B52A02D740DDAC16A010 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_structure.c */; };
+		D62146B5135745A48017586D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_xinput_x11.c */ = {isa = PBXBuildFile; fileRef = EA8B90EDE12B414B98CC8926 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_xinput_x11.c */; };
+		DCDB98670AB4417183F46D00 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_window.c */ = {isa = PBXBuildFile; fileRef = 1CFAE8E9245E4C32B1DC98D8 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_window.c */; };
+		DDF32726A9244FD295E85602 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_geometry.c */ = {isa = PBXBuildFile; fileRef = 9C43A1D37AE84D10B3104082 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_geometry.c */; };
+		DF07D541EC2E41C1A78354D4 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_teapot_data.h */ = {isa = PBXBuildFile; fileRef = 26CCA0E1B2BB4227BDC2FCC9 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_teapot_data.h */; };
+		E2D57449DAB84A238FDCEC2F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_main_x11.c */ = {isa = PBXBuildFile; fileRef = 0F41617910324D74A4EABA69 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_main_x11.c */; };
+		E47F47C6F5384F74B7AA3BC3 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_misc.c */ = {isa = PBXBuildFile; fileRef = 818AF22AB728467BAA1082DC /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_misc.c */; };
+		E5C77E0774BA43BEB56652BB /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gamemode.c */ = {isa = PBXBuildFile; fileRef = 6FB95FC3196B4822B17637AF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gamemode.c */; };
+		E7522D0C332C440FAAB70716 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_input_devices_x11.c */ = {isa = PBXBuildFile; fileRef = 68D41C8B44BD46338EC20D49 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_input_devices_x11.c */; };
+		E8702475A1394BBD8FC28293 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_ext_x11.c */ = {isa = PBXBuildFile; fileRef = CDB63E72B2BE49D09DF8F6C5 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_ext_x11.c */; };
+		E904EE5C7F0D48268E0039BF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11.c */ = {isa = PBXBuildFile; fileRef = 3158ACCECEAE4F6BAE3AE796 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11.c */; };
+		EC99E116771C4CBB958AEE89 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_main.c */ = {isa = PBXBuildFile; fileRef = 8FEAA0C5880E43D1BB939662 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_main.c */; };
+		ECDB8D14FC5F49A5A26FE3FF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_cursor_x11.c */ = {isa = PBXBuildFile; fileRef = 375DEF24611841B09AE79EEE /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_cursor_x11.c */; };
+		ECE60E46EC314B2E959AFE9B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gl2.h */ = {isa = PBXBuildFile; fileRef = 9CCC3C2F0B524385B86CCA71 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gl2.h */; };
+		EEA293B38A8E46D6849F7DC2 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut_std.h */ = {isa = PBXBuildFile; fileRef = 810F69C27AD044838A58EC17 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut_std.h */; };
+		EFD977CDB6034CF9AAAB54CA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 381935A796DD409D9453FB27 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/CMakeLists.txt */; };
+		F0283260285242439BA28AAE /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_display.c */ = {isa = PBXBuildFile; fileRef = 6A46C61EC8494F36B3C7507C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_display.c */; };
+		F2C8DEEB54054B53A6FAF7CC /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_glutfont_definitions_x11.c */ = {isa = PBXBuildFile; fileRef = 654A70EE419B428AB52F759E /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_glutfont_definitions_x11.c */; };
+		F303D803F90140B980E2860E /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_cursor.c */ = {isa = PBXBuildFile; fileRef = BB93EA0009AA4D5C95B81F17 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_cursor.c */; };
+		F3A1B345EDC74EB8BC09741A /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_joystick.c */ = {isa = PBXBuildFile; fileRef = 16FA9DCAA5144D6AA4BA5A4C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_joystick.c */; };
+		F4ABE9F76C184A69A13A4BF2 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_geometry.c */ = {isa = PBXBuildFile; fileRef = 474B452B1A7842B6A27C7172 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_geometry.c */; };
+		FAF8CE6ED9F9420CB74C1123 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_spaceball_x11.c */ = {isa = PBXBuildFile; fileRef = BB739DE625514988B9EA650E /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_spaceball_x11.c */; };
+		FE49FD2AACF144E19658F0DF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_display_x11_glx.c */ = {isa = PBXBuildFile; fileRef = C88FDEA8BEA44CE6A1D1A6CA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_display_x11_glx.c */; };
+		FF6663ED50C5443C8135A0E3 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_spaceball_x11.c */ = {isa = PBXBuildFile; fileRef = 612CD45C62A24EF6A04ACE50 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_spaceball_x11.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2216EE3EBE314234A4A784D1 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		7C03E173AFD94DC8B8C19D97 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		ACF2AA8CC968470CB21077B8 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E4EC8087CBDD4462BEA0281B /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1E61D320046A4E93B36840BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50270DC13544E50913D7BB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CC4D7615A8248BB9108F6EF;
+			remoteInfo = ZERO_CHECK;
+		};
+		3FCA32B4DC3C42E39BFFA1A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50270DC13544E50913D7BB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D81116576FE44EC9743A9CA;
+			remoteInfo = ALL_BUILD;
+		};
+		C9204649602A4784A7C7DAA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50270DC13544E50913D7BB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CC4D7615A8248BB9108F6EF;
+			remoteInfo = ZERO_CHECK;
+		};
+		D974A1389C1C42FE8E5F371C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50270DC13544E50913D7BB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40587A47FF534E54B1F45758;
+			remoteInfo = freeglut_static;
+		};
+		E8B9D440076C4050BF36C1D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50270DC13544E50913D7BB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19C0C72A88842D28C6D3801;
+			remoteInfo = freeglut;
+		};
+		FD608C1A4193443DBCE0B401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50270DC13544E50913D7BB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CC4D7615A8248BB9108F6EF;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018DCBFAA03B4162B634E096 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_internal.h; path = src/fg_internal.h; sourceTree = SOURCE_ROOT; };
+		0720254A9106440B826B745F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_init_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_init_x11.c; path = src/x11/fg_init_x11.c; sourceTree = SOURCE_ROOT; };
+		0855466A73F44E258CC28E86 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_menu.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_menu.c; path = src/fg_menu.c; sourceTree = SOURCE_ROOT; };
+		0864B52A02D740DDAC16A010 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_structure.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_structure.c; path = src/fg_structure.c; sourceTree = SOURCE_ROOT; };
+		0DCC4615EC9741CCB5FAD501 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_gamemode_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_gamemode_x11.c; path = src/x11/fg_gamemode_x11.c; sourceTree = SOURCE_ROOT; };
+		0F41617910324D74A4EABA69 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_main_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_main_x11.c; path = src/x11/fg_main_x11.c; sourceTree = SOURCE_ROOT; };
+		10E5B4DD7B0741F3A32A18FA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_roman.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_stroke_roman.c; path = src/fg_stroke_roman.c; sourceTree = SOURCE_ROOT; };
+		1400BE8429EB4DF7A75829B8 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_init.c; path = src/fg_init.c; sourceTree = SOURCE_ROOT; };
+		1608AEEA4FF84E0392968861 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_gamemode_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_gamemode_x11.c; path = src/x11/fg_gamemode_x11.c; sourceTree = SOURCE_ROOT; };
+		16FA9DCAA5144D6AA4BA5A4C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_joystick.c; path = src/fg_joystick.c; sourceTree = SOURCE_ROOT; };
+		193A3DD00B9A4C2DBA9117B0 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_internal.h; path = src/fg_internal.h; sourceTree = SOURCE_ROOT; };
+		197CB3B9481B429E9EF0D3D4 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1A3760FF58C040F3B14261DD /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut_ext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = freeglut_ext.h; path = include/GL/freeglut_ext.h; sourceTree = SOURCE_ROOT; };
+		1CFAE8E9245E4C32B1DC98D8 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_window.c; path = src/fg_window.c; sourceTree = SOURCE_ROOT; };
+		1EAF6A2FDF804280895A05EE /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_input_devices.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_input_devices.c; path = src/fg_input_devices.c; sourceTree = SOURCE_ROOT; };
+		1F41263D6C0948288016FDA5 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_init.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_init.h; path = src/fg_init.h; sourceTree = SOURCE_ROOT; };
+		26CCA0E1B2BB4227BDC2FCC9 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_teapot_data.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_teapot_data.h; path = src/fg_teapot_data.h; sourceTree = SOURCE_ROOT; };
+		298B8A655B394E70915A7154 /* freeglut_static */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglut.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2FA8C3F753413FB9BB017E /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_internal_x11_glx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_internal_x11_glx.h; path = src/x11/fg_internal_x11_glx.h; sourceTree = SOURCE_ROOT; };
+		30514905D4464B59856D9E81 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_xinput_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_xinput_x11.c; path = src/x11/fg_xinput_x11.c; sourceTree = SOURCE_ROOT; };
+		3158ACCECEAE4F6BAE3AE796 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_window_x11.c; path = src/x11/fg_window_x11.c; sourceTree = SOURCE_ROOT; };
+		3320E29576894AB1BA8CB949 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_internal_x11_glx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_internal_x11_glx.h; path = src/x11/fg_internal_x11_glx.h; sourceTree = SOURCE_ROOT; };
+		34915F3F6FCB45528C8FF0F6 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_callbacks.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_callbacks.c; path = src/fg_callbacks.c; sourceTree = SOURCE_ROOT; };
+		375DEF24611841B09AE79EEE /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_cursor_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_cursor_x11.c; path = src/x11/fg_cursor_x11.c; sourceTree = SOURCE_ROOT; };
+		37E5E0518A054AE9AEAE642B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_glutfont_definitions_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_glutfont_definitions_x11.c; path = src/x11/fg_glutfont_definitions_x11.c; sourceTree = SOURCE_ROOT; };
+		381935A796DD409D9453FB27 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3965DB37498A40609F9AA994 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_structure_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_structure_x11.c; path = src/x11/fg_structure_x11.c; sourceTree = SOURCE_ROOT; };
+		3A08D18C21D84FEBA2A98B7B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11_glx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_window_x11_glx.c; path = src/x11/fg_window_x11_glx.c; sourceTree = SOURCE_ROOT; };
+		3A6CF66A1F634C048EC9E14B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_overlay.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_overlay.c; path = src/fg_overlay.c; sourceTree = SOURCE_ROOT; };
+		3B2273F70BD24F0A9484ABF0 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_roman.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_stroke_roman.c; path = src/fg_stroke_roman.c; sourceTree = SOURCE_ROOT; };
+		3D391F11EB564C6686C72B6C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_internal_x11.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_internal_x11.h; path = src/x11/fg_internal_x11.h; sourceTree = SOURCE_ROOT; };
+		3F5E275E725449C795B3FD25 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_structure_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_structure_x11.c; path = src/x11/fg_structure_x11.c; sourceTree = SOURCE_ROOT; };
+		3FD4CD5EF0854E1BADCEBBBA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_display_x11_glx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_display_x11_glx.c; path = src/x11/fg_display_x11_glx.c; sourceTree = SOURCE_ROOT; };
+		40BA6AC0486E46C5AF55ECB2 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font_data.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_font_data.c; path = src/fg_font_data.c; sourceTree = SOURCE_ROOT; };
+		474B452B1A7842B6A27C7172 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_geometry.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_geometry.c; path = src/fg_geometry.c; sourceTree = SOURCE_ROOT; };
+		4C79F0F8F17A4B509972E7FC /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11_glx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_window_x11_glx.h; path = src/x11/fg_window_x11_glx.h; sourceTree = SOURCE_ROOT; };
+		563551434A40419887959708 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gl2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_gl2.c; path = src/fg_gl2.c; sourceTree = SOURCE_ROOT; };
+		58B76E9324BB4EE6B2FC43CF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_menu_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_menu_x11.c; path = src/x11/fg_menu_x11.c; sourceTree = SOURCE_ROOT; };
+		5B6AA386923F43049407F003 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11_glx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_state_x11_glx.c; path = src/x11/fg_state_x11_glx.c; sourceTree = SOURCE_ROOT; };
+		5B96B092853A4764B9B502C0 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_teapot.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_teapot.c; path = src/fg_teapot.c; sourceTree = SOURCE_ROOT; };
+		5F3FA809349D4B84A8B2BADA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_main.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_main.c; path = src/fg_main.c; sourceTree = SOURCE_ROOT; };
+		612CD45C62A24EF6A04ACE50 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_spaceball_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_spaceball_x11.c; path = src/x11/fg_spaceball_x11.c; sourceTree = SOURCE_ROOT; };
+		635223B6EFE646FA90B6D24D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		654A70EE419B428AB52F759E /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_glutfont_definitions_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_glutfont_definitions_x11.c; path = src/x11/fg_glutfont_definitions_x11.c; sourceTree = SOURCE_ROOT; };
+		67B289056C874BBB8C327375 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_menu.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_menu.c; path = src/fg_menu.c; sourceTree = SOURCE_ROOT; };
+		68D41C8B44BD46338EC20D49 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_input_devices_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_input_devices_x11.c; path = src/x11/fg_input_devices_x11.c; sourceTree = SOURCE_ROOT; };
+		6959500EBA5343CD8C3FF51C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_input_devices.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_input_devices.c; path = src/fg_input_devices.c; sourceTree = SOURCE_ROOT; };
+		6A46C61EC8494F36B3C7507C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_display.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_display.c; path = src/fg_display.c; sourceTree = SOURCE_ROOT; };
+		6A8B84AE3C234CBAB6755BD7 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gl2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_gl2.h; path = src/fg_gl2.h; sourceTree = SOURCE_ROOT; };
+		6DEEC2A6749D46218423CDE5 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/util/xparsegeometry_repl.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xparsegeometry_repl.c; path = src/util/xparsegeometry_repl.c; sourceTree = SOURCE_ROOT; };
+		6E09E3EBA46E40529870E47D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_overlay.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_overlay.c; path = src/fg_overlay.c; sourceTree = SOURCE_ROOT; };
+		6E4DD8EF802145F4AA299165 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_window.c; path = src/fg_window.c; sourceTree = SOURCE_ROOT; };
+		6E64612CCB6844B683551B81 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_internal_x11.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_internal_x11.h; path = src/x11/fg_internal_x11.h; sourceTree = SOURCE_ROOT; };
+		6FB95FC3196B4822B17637AF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gamemode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_gamemode.c; path = src/fg_gamemode.c; sourceTree = SOURCE_ROOT; };
+		737CD4D95D71457CB90E25BD /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/util/xparsegeometry_repl.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xparsegeometry_repl.c; path = src/util/xparsegeometry_repl.c; sourceTree = SOURCE_ROOT; };
+		743E1E28AF3348D1AD3FC197 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_main_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_main_x11.c; path = src/x11/fg_main_x11.c; sourceTree = SOURCE_ROOT; };
+		74EE4E4B5FA14296BD969333 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7D51C80DEBC64F6E8397D27F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = freeglut.h; path = include/GL/freeglut.h; sourceTree = SOURCE_ROOT; };
+		810F69C27AD044838A58EC17 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut_std.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = freeglut_std.h; path = include/GL/freeglut_std.h; sourceTree = SOURCE_ROOT; };
+		818AF22AB728467BAA1082DC /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_misc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_misc.c; path = src/fg_misc.c; sourceTree = SOURCE_ROOT; };
+		866FE2E55AA1451BBD6E2887 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_cursor_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_cursor_x11.c; path = src/x11/fg_cursor_x11.c; sourceTree = SOURCE_ROOT; };
+		8777593A53F1496F9E34AE68 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/glut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glut.h; path = include/GL/glut.h; sourceTree = SOURCE_ROOT; };
+		8C86CE9EF8AD4668BA7ACEBF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_state_x11.c; path = src/x11/fg_state_x11.c; sourceTree = SOURCE_ROOT; };
+		8FEAA0C5880E43D1BB939662 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_main.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_main.c; path = src/fg_main.c; sourceTree = SOURCE_ROOT; };
+		9567B88F8BBD4F1CB37B3A1C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_menu_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_menu_x11.c; path = src/x11/fg_menu_x11.c; sourceTree = SOURCE_ROOT; };
+		994E90C457DD4EF58A1FADB4 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_init.c; path = src/fg_init.c; sourceTree = SOURCE_ROOT; };
+		9978C9CAB4BA487D94F37FC0 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gamemode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_gamemode.c; path = src/fg_gamemode.c; sourceTree = SOURCE_ROOT; };
+		9AD7A5E2B4474E42A9542349 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_mono_roman.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_stroke_mono_roman.c; path = src/fg_stroke_mono_roman.c; sourceTree = SOURCE_ROOT; };
+		9C25803C62CC432D91B65DFB /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_mono_roman.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_stroke_mono_roman.c; path = src/fg_stroke_mono_roman.c; sourceTree = SOURCE_ROOT; };
+		9C330A37E77D40DD984421D4 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_display.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_display.c; path = src/fg_display.c; sourceTree = SOURCE_ROOT; };
+		9C43A1D37AE84D10B3104082 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_geometry.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_geometry.c; path = src/fg_geometry.c; sourceTree = SOURCE_ROOT; };
+		9CCC3C2F0B524385B86CCA71 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gl2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_gl2.h; path = src/fg_gl2.h; sourceTree = SOURCE_ROOT; };
+		9D207E753B6D406CAC563169 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_spaceball.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_spaceball.c; path = src/fg_spaceball.c; sourceTree = SOURCE_ROOT; };
+		9FDC5F1DE8354E2A870914EB /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_teapot.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_teapot.c; path = src/fg_teapot.c; sourceTree = SOURCE_ROOT; };
+		A0F25D29478E4629AF452EE6 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_font.c; path = src/fg_font.c; sourceTree = SOURCE_ROOT; };
+		A2394F02B93B4D04BEC59160 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut_std.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = freeglut_std.h; path = include/GL/freeglut_std.h; sourceTree = SOURCE_ROOT; };
+		A28186DA350243228D77232F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_spaceball.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_spaceball.c; path = src/fg_spaceball.c; sourceTree = SOURCE_ROOT; };
+		A6BD04876CA848159C456B05 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_videoresize.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_videoresize.c; path = src/fg_videoresize.c; sourceTree = SOURCE_ROOT; };
+		A6F7F4CEC5D644B4B39F1DE8 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11_glx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_window_x11_glx.c; path = src/x11/fg_window_x11_glx.c; sourceTree = SOURCE_ROOT; };
+		AAF22008EE0D4CF8AB4D4804 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11_glx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_state_x11_glx.h; path = src/x11/fg_state_x11_glx.h; sourceTree = SOURCE_ROOT; };
+		AD14DE06E42C43EEA98C0E8C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11_glx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_state_x11_glx.c; path = src/x11/fg_state_x11_glx.c; sourceTree = SOURCE_ROOT; };
+		AD1A5DB9D8104609BDA7FCA0 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_teapot_data.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_teapot_data.h; path = src/fg_teapot_data.h; sourceTree = SOURCE_ROOT; };
+		AD6E7698E4854793A521C29D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_window_x11.c; path = src/x11/fg_window_x11.c; sourceTree = SOURCE_ROOT; };
+		B4795ADF9BA44707B6E8DB65 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_ext.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_ext.c; path = src/fg_ext.c; sourceTree = SOURCE_ROOT; };
+		B5D7884F081F4C898EB6598E /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut_ext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = freeglut_ext.h; path = include/GL/freeglut_ext.h; sourceTree = SOURCE_ROOT; };
+		B7CBD2A69E4A4B03B4962D71 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = freeglut.h; path = include/GL/freeglut.h; sourceTree = SOURCE_ROOT; };
+		B96711BC56954742BF956017 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_init_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_init_x11.c; path = src/x11/fg_init_x11.c; sourceTree = SOURCE_ROOT; };
+		BA68F95399B444A9B17371AD /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_cursor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_cursor.c; path = src/fg_cursor.c; sourceTree = SOURCE_ROOT; };
+		BB739DE625514988B9EA650E /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_spaceball_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_spaceball_x11.c; path = src/x11/fg_spaceball_x11.c; sourceTree = SOURCE_ROOT; };
+		BB93EA0009AA4D5C95B81F17 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_cursor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_cursor.c; path = src/fg_cursor.c; sourceTree = SOURCE_ROOT; };
+		BD3584DC98F14F91B8AD6162 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_input_devices_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_input_devices_x11.c; path = src/x11/fg_input_devices_x11.c; sourceTree = SOURCE_ROOT; };
+		C0835D4D356C48CE995EA08A /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_structure.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_structure.c; path = src/fg_structure.c; sourceTree = SOURCE_ROOT; };
+		C1AE2E0342A34F2B9E58306B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_misc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_misc.c; path = src/fg_misc.c; sourceTree = SOURCE_ROOT; };
+		C27C3DB7DB46431E9CA9AA7F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gl2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_gl2.c; path = src/fg_gl2.c; sourceTree = SOURCE_ROOT; };
+		C88FDEA8BEA44CE6A1D1A6CA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_display_x11_glx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_display_x11_glx.c; path = src/x11/fg_display_x11_glx.c; sourceTree = SOURCE_ROOT; };
+		C8DB7D5A25964ED89E3AE4BE /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11_glx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_state_x11_glx.h; path = src/x11/fg_state_x11_glx.h; sourceTree = SOURCE_ROOT; };
+		C9AFA17346314C99AD61B59F /* freeglut */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libglut.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB63E72B2BE49D09DF8F6C5 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_ext_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_ext_x11.c; path = src/x11/fg_ext_x11.c; sourceTree = SOURCE_ROOT; };
+		CF4F771F22374ADB8E40D5AF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_callbacks.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_callbacks.c; path = src/fg_callbacks.c; sourceTree = SOURCE_ROOT; };
+		D106DDCDE74640A7B04458B8 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_state.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_state.c; path = src/fg_state.c; sourceTree = SOURCE_ROOT; };
+		D380BFEBB0F646309C09B903 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11_glx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_window_x11_glx.h; path = src/x11/fg_window_x11_glx.h; sourceTree = SOURCE_ROOT; };
+		D53D8C3A3A454F5AB74B11FA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_joystick_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_joystick_x11.c; path = src/x11/fg_joystick_x11.c; sourceTree = SOURCE_ROOT; };
+		D6C6DBE09ECC4870A14D3B37 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font_data.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_font_data.c; path = src/fg_font_data.c; sourceTree = SOURCE_ROOT; };
+		D951C1CD99604C2CB1A34DE1 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_state.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_state.c; path = src/fg_state.c; sourceTree = SOURCE_ROOT; };
+		DC8CFDA7A8D84E5198C37C80 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_ext.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_ext.c; path = src/fg_ext.c; sourceTree = SOURCE_ROOT; };
+		DD6003DB983944D19868DDBF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_videoresize.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_videoresize.c; path = src/fg_videoresize.c; sourceTree = SOURCE_ROOT; };
+		E0F890A1277340B799142F0F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_init.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fg_init.h; path = src/fg_init.h; sourceTree = SOURCE_ROOT; };
+		E45C612F06F0451C8064C829 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/util/xparsegeometry_repl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xparsegeometry_repl.h; path = src/util/xparsegeometry_repl.h; sourceTree = SOURCE_ROOT; };
+		E4D5EFA781EA490F8EFEB0F8 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/glut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glut.h; path = include/GL/glut.h; sourceTree = SOURCE_ROOT; };
+		EA8B90EDE12B414B98CC8926 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_xinput_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_xinput_x11.c; path = src/x11/fg_xinput_x11.c; sourceTree = SOURCE_ROOT; };
+		EBC232B00FA046D2A097E97B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_joystick_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_joystick_x11.c; path = src/x11/fg_joystick_x11.c; sourceTree = SOURCE_ROOT; };
+		ED4E165FA35C4C3EBB83F287 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_joystick.c; path = src/fg_joystick.c; sourceTree = SOURCE_ROOT; };
+		F2A32FDED6C44929B08D8EA7 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_state_x11.c; path = src/x11/fg_state_x11.c; sourceTree = SOURCE_ROOT; };
+		F5B23B19642C41498D6A9501 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/util/xparsegeometry_repl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xparsegeometry_repl.h; path = src/util/xparsegeometry_repl.h; sourceTree = SOURCE_ROOT; };
+		F8324981773B4703B729C574 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_ext_x11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_ext_x11.c; path = src/x11/fg_ext_x11.c; sourceTree = SOURCE_ROOT; };
+		FEB1BAB623264F0497DC8760 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fg_font.c; path = src/fg_font.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0901BE3357FC4867BB340AAC /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7CBD2A69E4A4B03B4962D71 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut.h */,
+				B5D7884F081F4C898EB6598E /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut_ext.h */,
+				A2394F02B93B4D04BEC59160 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut_std.h */,
+				8777593A53F1496F9E34AE68 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/glut.h */,
+				9CCC3C2F0B524385B86CCA71 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gl2.h */,
+				E0F890A1277340B799142F0F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_init.h */,
+				018DCBFAA03B4162B634E096 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_internal.h */,
+				AD1A5DB9D8104609BDA7FCA0 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_teapot_data.h */,
+				F5B23B19642C41498D6A9501 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/util/xparsegeometry_repl.h */,
+				6E64612CCB6844B683551B81 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_internal_x11.h */,
+				3320E29576894AB1BA8CB949 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_internal_x11_glx.h */,
+				AAF22008EE0D4CF8AB4D4804 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11_glx.h */,
+				D380BFEBB0F646309C09B903 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11_glx.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		3443F6CE3DED4B7BAFF571D3 /* freeglut */ = {
+			isa = PBXGroup;
+			children = (
+				0901BE3357FC4867BB340AAC /* Header Files */,
+				D606CE505EED432592759654 /* Source Files */,
+				381935A796DD409D9453FB27 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/CMakeLists.txt */,
+			);
+			name = freeglut;
+			sourceTree = "<group>";
+		};
+		3C66B32237284A5EA40809DA /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D51C80DEBC64F6E8397D27F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut.h */,
+				1A3760FF58C040F3B14261DD /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut_ext.h */,
+				810F69C27AD044838A58EC17 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/freeglut_std.h */,
+				E4D5EFA781EA490F8EFEB0F8 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/include/GL/glut.h */,
+				6A8B84AE3C234CBAB6755BD7 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gl2.h */,
+				1F41263D6C0948288016FDA5 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_init.h */,
+				193A3DD00B9A4C2DBA9117B0 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_internal.h */,
+				26CCA0E1B2BB4227BDC2FCC9 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_teapot_data.h */,
+				E45C612F06F0451C8064C829 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/util/xparsegeometry_repl.h */,
+				3D391F11EB564C6686C72B6C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_internal_x11.h */,
+				2C2FA8C3F753413FB9BB017E /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_internal_x11_glx.h */,
+				C8DB7D5A25964ED89E3AE4BE /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11_glx.h */,
+				4C79F0F8F17A4B509972E7FC /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11_glx.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		55ACE3C510EF4252BF8404C6 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				76540249431D46E690F09B8A /* CMake Rules */,
+				635223B6EFE646FA90B6D24D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		76540249431D46E690F09B8A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7E281C68DB4D49AAB13B56C9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		83D0070979D44D40A2109E2E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F771F22374ADB8E40D5AF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_callbacks.c */,
+				BA68F95399B444A9B17371AD /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_cursor.c */,
+				6A46C61EC8494F36B3C7507C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_display.c */,
+				DC8CFDA7A8D84E5198C37C80 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_ext.c */,
+				A0F25D29478E4629AF452EE6 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font.c */,
+				40BA6AC0486E46C5AF55ECB2 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font_data.c */,
+				9978C9CAB4BA487D94F37FC0 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gamemode.c */,
+				474B452B1A7842B6A27C7172 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_geometry.c */,
+				C27C3DB7DB46431E9CA9AA7F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gl2.c */,
+				994E90C457DD4EF58A1FADB4 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_init.c */,
+				6959500EBA5343CD8C3FF51C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_input_devices.c */,
+				ED4E165FA35C4C3EBB83F287 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_joystick.c */,
+				8FEAA0C5880E43D1BB939662 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_main.c */,
+				0855466A73F44E258CC28E86 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_menu.c */,
+				818AF22AB728467BAA1082DC /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_misc.c */,
+				3A6CF66A1F634C048EC9E14B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_overlay.c */,
+				A28186DA350243228D77232F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_spaceball.c */,
+				D951C1CD99604C2CB1A34DE1 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_state.c */,
+				9C25803C62CC432D91B65DFB /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_mono_roman.c */,
+				10E5B4DD7B0741F3A32A18FA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_roman.c */,
+				0864B52A02D740DDAC16A010 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_structure.c */,
+				9FDC5F1DE8354E2A870914EB /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_teapot.c */,
+				DD6003DB983944D19868DDBF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_videoresize.c */,
+				6E4DD8EF802145F4AA299165 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_window.c */,
+				737CD4D95D71457CB90E25BD /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/util/xparsegeometry_repl.c */,
+				866FE2E55AA1451BBD6E2887 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_cursor_x11.c */,
+				3FD4CD5EF0854E1BADCEBBBA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_display_x11_glx.c */,
+				CDB63E72B2BE49D09DF8F6C5 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_ext_x11.c */,
+				1608AEEA4FF84E0392968861 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_gamemode_x11.c */,
+				37E5E0518A054AE9AEAE642B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_glutfont_definitions_x11.c */,
+				0720254A9106440B826B745F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_init_x11.c */,
+				BD3584DC98F14F91B8AD6162 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_input_devices_x11.c */,
+				D53D8C3A3A454F5AB74B11FA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_joystick_x11.c */,
+				743E1E28AF3348D1AD3FC197 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_main_x11.c */,
+				9567B88F8BBD4F1CB37B3A1C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_menu_x11.c */,
+				BB739DE625514988B9EA650E /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_spaceball_x11.c */,
+				F2A32FDED6C44929B08D8EA7 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11.c */,
+				5B6AA386923F43049407F003 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11_glx.c */,
+				3965DB37498A40609F9AA994 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_structure_x11.c */,
+				AD6E7698E4854793A521C29D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11.c */,
+				3A08D18C21D84FEBA2A98B7B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11_glx.c */,
+				30514905D4464B59856D9E81 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_xinput_x11.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A75FFA8C40CB458E90DFDE7A /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				7E281C68DB4D49AAB13B56C9 /* CMake Rules */,
+				197CB3B9481B429E9EF0D3D4 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		BA109B5BE1C04A2580E67F5E /* freeglut_static */ = {
+			isa = PBXGroup;
+			children = (
+				3C66B32237284A5EA40809DA /* Header Files */,
+				83D0070979D44D40A2109E2E /* Source Files */,
+				74EE4E4B5FA14296BD969333 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/CMakeLists.txt */,
+			);
+			name = freeglut_static;
+			sourceTree = "<group>";
+		};
+		CB3076A80D7045808DC12F8E = {
+			isa = PBXGroup;
+			children = (
+				BA109B5BE1C04A2580E67F5E /* freeglut_static */,
+				3443F6CE3DED4B7BAFF571D3 /* freeglut */,
+				55ACE3C510EF4252BF8404C6 /* ALL_BUILD */,
+				A75FFA8C40CB458E90DFDE7A /* ZERO_CHECK */,
+				DC698ED0663A4C3F956F4FB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D606CE505EED432592759654 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				34915F3F6FCB45528C8FF0F6 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_callbacks.c */,
+				BB93EA0009AA4D5C95B81F17 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_cursor.c */,
+				9C330A37E77D40DD984421D4 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_display.c */,
+				B4795ADF9BA44707B6E8DB65 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_ext.c */,
+				FEB1BAB623264F0497DC8760 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font.c */,
+				D6C6DBE09ECC4870A14D3B37 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font_data.c */,
+				6FB95FC3196B4822B17637AF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gamemode.c */,
+				9C43A1D37AE84D10B3104082 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_geometry.c */,
+				563551434A40419887959708 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gl2.c */,
+				1400BE8429EB4DF7A75829B8 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_init.c */,
+				1EAF6A2FDF804280895A05EE /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_input_devices.c */,
+				16FA9DCAA5144D6AA4BA5A4C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_joystick.c */,
+				5F3FA809349D4B84A8B2BADA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_main.c */,
+				67B289056C874BBB8C327375 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_menu.c */,
+				C1AE2E0342A34F2B9E58306B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_misc.c */,
+				6E09E3EBA46E40529870E47D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_overlay.c */,
+				9D207E753B6D406CAC563169 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_spaceball.c */,
+				D106DDCDE74640A7B04458B8 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_state.c */,
+				9AD7A5E2B4474E42A9542349 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_mono_roman.c */,
+				3B2273F70BD24F0A9484ABF0 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_roman.c */,
+				C0835D4D356C48CE995EA08A /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_structure.c */,
+				5B96B092853A4764B9B502C0 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_teapot.c */,
+				A6BD04876CA848159C456B05 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_videoresize.c */,
+				1CFAE8E9245E4C32B1DC98D8 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_window.c */,
+				6DEEC2A6749D46218423CDE5 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/util/xparsegeometry_repl.c */,
+				375DEF24611841B09AE79EEE /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_cursor_x11.c */,
+				C88FDEA8BEA44CE6A1D1A6CA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_display_x11_glx.c */,
+				F8324981773B4703B729C574 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_ext_x11.c */,
+				0DCC4615EC9741CCB5FAD501 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_gamemode_x11.c */,
+				654A70EE419B428AB52F759E /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_glutfont_definitions_x11.c */,
+				B96711BC56954742BF956017 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_init_x11.c */,
+				68D41C8B44BD46338EC20D49 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_input_devices_x11.c */,
+				EBC232B00FA046D2A097E97B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_joystick_x11.c */,
+				0F41617910324D74A4EABA69 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_main_x11.c */,
+				58B76E9324BB4EE6B2FC43CF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_menu_x11.c */,
+				612CD45C62A24EF6A04ACE50 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_spaceball_x11.c */,
+				8C86CE9EF8AD4668BA7ACEBF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11.c */,
+				AD14DE06E42C43EEA98C0E8C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11_glx.c */,
+				3F5E275E725449C795B3FD25 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_structure_x11.c */,
+				3158ACCECEAE4F6BAE3AE796 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11.c */,
+				A6F7F4CEC5D644B4B39F1DE8 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11_glx.c */,
+				EA8B90EDE12B414B98CC8926 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_xinput_x11.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DC698ED0663A4C3F956F4FB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9AFA17346314C99AD61B59F /* freeglut */,
+				298B8A655B394E70915A7154 /* freeglut_static */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40587A47FF534E54B1F45758 /* freeglut_static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0E104EBA79E431B94B03C41 /* Build configuration list for PBXNativeTarget "freeglut_static" */;
+			buildPhases = (
+				1E17374B370F468E86E54298 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				656CDBD4EC1A46DA98EE8888 /* PBXTargetDependency */,
+			);
+			name = freeglut_static;
+			productName = freeglut_static;
+			productReference = 298B8A655B394E70915A7154 /* freeglut_static */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C19C0C72A88842D28C6D3801 /* freeglut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFAD3A0B9315446D958968A9 /* Build configuration list for PBXNativeTarget "freeglut" */;
+			buildPhases = (
+				EB7BF4A6FEB14968BCA00A0E /* Sources */,
+				212BC104D4EC4A1D97869861 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885954E7752D4A66AE75D3DC /* PBXTargetDependency */,
+			);
+			name = freeglut;
+			productName = freeglut;
+			productReference = C9AFA17346314C99AD61B59F /* freeglut */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F50270DC13544E50913D7BB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 06E3187FE168474096992905 /* Build configuration list for PBXProject "freeglut" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				2216EE3EBE314234A4A784D1 /* Debug */,
+				E4EC8087CBDD4462BEA0281B /* Release */,
+				7C03E173AFD94DC8B8C19D97 /* MinSizeRel */,
+				ACF2AA8CC968470CB21077B8 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = CB3076A80D7045808DC12F8E;
+			projectDirPath = /Users/kevinmeinert/src/liquidfun/lf/freeglut;
+			projectRoot = "";
+			targets = (
+				2D81116576FE44EC9743A9CA /* ALL_BUILD */,
+				3CC4D7615A8248BB9108F6EF /* ZERO_CHECK */,
+				C19C0C72A88842D28C6D3801 /* freeglut */,
+				40587A47FF534E54B1F45758 /* freeglut_static */,
+				6D463A442D2E4C658FC4FFE0 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CCB126E9F284E6B9CAB75AE = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		212BC104D4EC4A1D97869861 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut -f /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut/CMakeScripts/freeglut_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		36C7FBC178254E6BA0A4428A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut -f /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		89C8A891999744B7983FA56E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8A9D72A2218A4A4BAE956847 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		930B114D293F4A038201D880 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut -f /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		EE6CB3FFAF834AAE92F97032 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut -f /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E17374B370F468E86E54298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6F526DA6BC4CF2B5AF0746 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_callbacks.c */,
+				613674D03E9C4D169D4B6F57 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_cursor.c */,
+				F0283260285242439BA28AAE /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_display.c */,
+				CAC97D147BDF486B899CBF3C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_ext.c */,
+				A06B7010476F4B8092DC4960 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font.c */,
+				52C43A2E55084F10BE4A82E4 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font_data.c */,
+				1FCED937F51849AC8B03C250 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gamemode.c */,
+				F4ABE9F76C184A69A13A4BF2 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_geometry.c */,
+				7A1951943DC54F7A94279431 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gl2.c */,
+				2BBAF765935743509FC183A3 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_init.c */,
+				88C2FBB0C6744EFB96BB6692 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_input_devices.c */,
+				C7A1CF160E244E1B95FDF671 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_joystick.c */,
+				EC99E116771C4CBB958AEE89 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_main.c */,
+				AC48FFA6BA934C7CA892288C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_menu.c */,
+				E47F47C6F5384F74B7AA3BC3 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_misc.c */,
+				7C575BD89A45469F9D3BCF4B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_overlay.c */,
+				301ABEA9530740D2B2EBA1A2 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_spaceball.c */,
+				998EDAE7118F455483B4AF0D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_state.c */,
+				A810D8C74D3A47D4A311E961 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_mono_roman.c */,
+				C6FE387C2AFC4B33A50F95ED /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_roman.c */,
+				CE797D578BDA4B6696EDA374 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_structure.c */,
+				A8AF6C2ED8E04D5B992CD0F5 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_teapot.c */,
+				4F049C9855C549EEB88AAF67 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_videoresize.c */,
+				3BF57450D4004B53ACC773AC /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_window.c */,
+				1C15AEAE66CF4061B0A5A4A6 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/util/xparsegeometry_repl.c */,
+				B02FF7D462C84875AF642743 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_cursor_x11.c */,
+				8F385EB107BD4C829772F50D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_display_x11_glx.c */,
+				E8702475A1394BBD8FC28293 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_ext_x11.c */,
+				177E59CE3CDF4855B011B6C5 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_gamemode_x11.c */,
+				C9CC6F60369D4DDF8EB64CC2 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_glutfont_definitions_x11.c */,
+				78A6A895198C4839877467FA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_init_x11.c */,
+				274E401B913E43409B2C4E65 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_input_devices_x11.c */,
+				06EA3944326D4DB0A55867EF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_joystick_x11.c */,
+				3EF799BAB73A4CD3A7FC555D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_main_x11.c */,
+				A51B7AF6975C4EF2A26C11A7 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_menu_x11.c */,
+				FAF8CE6ED9F9420CB74C1123 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_spaceball_x11.c */,
+				C61E0143624A4273B65946FD /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11.c */,
+				701B48116980456B93100EEF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11_glx.c */,
+				2A2802C087D249218ECB1F09 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_structure_x11.c */,
+				49396B3D526248AE93ACBA31 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11.c */,
+				4475821C5B0B4A1597140FF5 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11_glx.c */,
+				2382FC34AF994096BC71ACC9 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_xinput_x11.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7BF4A6FEB14968BCA00A0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061E22CC27FC4DE6810FE5D5 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_callbacks.c */,
+				F303D803F90140B980E2860E /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_cursor.c */,
+				8087685D6E46429C8B2012EC /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_display.c */,
+				7A4E758ACE934D75A5FC32EE /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_ext.c */,
+				54AFBAA0C57B4242B9A01BAA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font.c */,
+				0E01593030184D67B0235181 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_font_data.c */,
+				E5C77E0774BA43BEB56652BB /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gamemode.c */,
+				DDF32726A9244FD295E85602 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_geometry.c */,
+				AE88B67790394F9C89230EA9 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_gl2.c */,
+				1A0139A7B29C457C94B8C27B /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_init.c */,
+				172251143CB943838B90E5D3 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_input_devices.c */,
+				F3A1B345EDC74EB8BC09741A /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_joystick.c */,
+				B36C4718FF274640BCB576F9 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_main.c */,
+				27BCEC7EC3E14D0FBED7A277 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_menu.c */,
+				3FC528E6B2AC42EC80EC651F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_misc.c */,
+				20081DB26A1D4307BB128B5D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_overlay.c */,
+				782D7BBBBD924F8DB66B92E9 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_spaceball.c */,
+				A7AAC6FFAA3848A59F489BFA /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_state.c */,
+				21BF2C01988A4CBAB3966792 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_mono_roman.c */,
+				9FD551A61B0744CFAA294B0C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_stroke_roman.c */,
+				17524B0939F34497B0B515C8 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_structure.c */,
+				3CEBEAAD14F74608A4DB6D33 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_teapot.c */,
+				24B5C78181DF4A53B2DAC386 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_videoresize.c */,
+				DCDB98670AB4417183F46D00 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/fg_window.c */,
+				3DAFC3DB03684A17A758BF73 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/util/xparsegeometry_repl.c */,
+				ECDB8D14FC5F49A5A26FE3FF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_cursor_x11.c */,
+				FE49FD2AACF144E19658F0DF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_display_x11_glx.c */,
+				58420DEAD7414D8B8620273E /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_ext_x11.c */,
+				2A72C761C76045A598C18927 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_gamemode_x11.c */,
+				F2C8DEEB54054B53A6FAF7CC /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_glutfont_definitions_x11.c */,
+				90F1C82F596A469E897B46CB /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_init_x11.c */,
+				E7522D0C332C440FAAB70716 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_input_devices_x11.c */,
+				6520E684E00641C79BFC2F3E /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_joystick_x11.c */,
+				E2D57449DAB84A238FDCEC2F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_main_x11.c */,
+				26CFAC0786894558BFB2F79D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_menu_x11.c */,
+				FF6663ED50C5443C8135A0E3 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_spaceball_x11.c */,
+				61AFF9E3BA334E1E85C78E74 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11.c */,
+				227055F406AB48C5BE74621C /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_state_x11_glx.c */,
+				2A599723834543D2A170820F /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_structure_x11.c */,
+				E904EE5C7F0D48268E0039BF /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11.c */,
+				07C6A72A8CE746DFAC0171B4 /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_window_x11_glx.c */,
+				D62146B5135745A48017586D /* /Users/kevinmeinert/src/liquidfun/lf/freeglut/src/x11/fg_xinput_x11.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B082351CE014CAF8F681D0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40587A47FF534E54B1F45758 /* freeglut_static */;
+			targetProxy = D974A1389C1C42FE8E5F371C /* PBXContainerItemProxy */;
+		};
+		656CDBD4EC1A46DA98EE8888 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CC4D7615A8248BB9108F6EF /* ZERO_CHECK */;
+			targetProxy = 1E61D320046A4E93B36840BB /* PBXContainerItemProxy */;
+		};
+		885954E7752D4A66AE75D3DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CC4D7615A8248BB9108F6EF /* ZERO_CHECK */;
+			targetProxy = C9204649602A4784A7C7DAA5 /* PBXContainerItemProxy */;
+		};
+		AD6093E40EBC4E60A6E0431E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CC4D7615A8248BB9108F6EF /* ZERO_CHECK */;
+			targetProxy = FD608C1A4193443DBCE0B401 /* PBXContainerItemProxy */;
+		};
+		DD5371353A5345DC87BB48C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D81116576FE44EC9743A9CA /* ALL_BUILD */;
+			targetProxy = 3FCA32B4DC3C42E39BFFA1A1 /* PBXContainerItemProxy */;
+		};
+		E27CE977D90F4806B6E6B227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19C0C72A88842D28C6D3801 /* freeglut */;
+			targetProxy = E8B9D440076C4050BF36C1D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00BB9C9355EC4D8397DE7740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.9.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",freeglut_EXPORTS,"'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'",HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/X11/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/X11/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/X11/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros     -DNDEBUG -DDEBUG=0 -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut/Release/libglut.3.dylib  -framework OpenGL -lm /opt/X11/lib/libSM.dylib /opt/X11/lib/libICE.dylib /opt/X11/lib/libX11.dylib /opt/X11/lib/libXext.dylib /opt/X11/lib/libXrandr.dylib /opt/X11/lib/libXxf86vm.dylib /opt/X11/lib/libXi.dylib -lGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glut.3.9.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+			};
+			name = Release;
+		};
+		06AED2CD960443DE8085938E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.9.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",freeglut_EXPORTS,"'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'",HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/X11/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/X11/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/X11/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros    -DDEBUG=1 -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut/Debug/libglut.3.dylib  -framework OpenGL -lm /opt/X11/lib/libSM.dylib /opt/X11/lib/libICE.dylib /opt/X11/lib/libX11.dylib /opt/X11/lib/libXext.dylib /opt/X11/lib/libXrandr.dylib /opt/X11/lib/libXxf86vm.dylib /opt/X11/lib/libXi.dylib -lGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glut.3.9.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+			};
+			name = Debug;
+		};
+		0CD8B5FBAC874121A008E7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut/build;
+			};
+			name = Debug;
+		};
+		0F31EF06FBE346B1A634929C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		17552D43036248ABB5540EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1CDA42A627B145898A2724E2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'",HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros        -DNDEBUG -DDEBUG=0  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glut;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+			};
+			name = RelWithDebInfo;
+		};
+		22F4A0234D514ECFA5BF748B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'",HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros    -DDEBUG=1  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glut;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+			};
+			name = Debug;
+		};
+		41D2CA1FFB4A495A9B1623AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'",HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros     -DNDEBUG -DDEBUG=0  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glut;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+			};
+			name = Release;
+		};
+		480AFEB79A6247AD915B177B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.9.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",freeglut_EXPORTS,"'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'",HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/X11/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/X11/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/X11/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros     -DNDEBUG -DDEBUG=0 -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut/MinSizeRel/libglut.3.dylib  -framework OpenGL -lm /opt/X11/lib/libSM.dylib /opt/X11/lib/libICE.dylib /opt/X11/lib/libX11.dylib /opt/X11/lib/libXext.dylib /opt/X11/lib/libXrandr.dylib /opt/X11/lib/libXxf86vm.dylib /opt/X11/lib/libXi.dylib -lGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glut.3.9.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+			};
+			name = MinSizeRel;
+		};
+		50D32B6102464468A8FC106A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5C6EF8D7014241068F20CD85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6B061519404E4255823D4202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6E5F4E047708416DA0FC707B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut/build;
+			};
+			name = RelWithDebInfo;
+		};
+		8518D6E5D9FF4DFEAD64F95C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut/build;
+			};
+			name = MinSizeRel;
+		};
+		A10D2F067CAE4CADA2070972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A4ADEC3CE6D94D3192332D0B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B9D3B5AFF7C04A5488ACEF76 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BB402051245449A0AC70E375 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BE1AD72485EF4ABFB056E300 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.9.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",freeglut_EXPORTS,"'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'",HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/X11/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/X11/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/X11/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros        -DNDEBUG -DDEBUG=0 -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut/RelWithDebInfo/libglut.3.dylib  -framework OpenGL -lm /opt/X11/lib/libSM.dylib /opt/X11/lib/libICE.dylib /opt/X11/lib/libX11.dylib /opt/X11/lib/libXext.dylib /opt/X11/lib/libXrandr.dylib /opt/X11/lib/libXxf86vm.dylib /opt/X11/lib/libXi.dylib -lGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glut.3.9.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+			};
+			name = RelWithDebInfo;
+		};
+		CB5BFC9C0FAD4E64ACDF87AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D4EA5178CBC94DBEA997C629 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E436878106AC49429F505FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut/build;
+			};
+			name = Release;
+		};
+		E4AA31466AAD4CE096E6CDDE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FFAB7D257F3F4881B7A7FEAD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIQUIDFUN_EXTERNAL_LANGUAGE_API=1'",HAVE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D,/Users/kevinmeinert/src/liquidfun/lf/freeglut/include,/Users/kevinmeinert/src/liquidfun/lf/freeglut/src,/usr/pkg/xorg/include,/usr/X11R6/include,/usr/X11R7/include,/usr/include/X11,/usr/openwin/include,/usr/openwin/share/include,/opt/graphics/OpenGL/include,/opt/X11/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wall -Werror -Wno-long-long -Wno-variadic-macros     -DNDEBUG -DDEBUG=0  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glut;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kevinmeinert/src/liquidfun/lf/liquidfun/Box2D/freeglut;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "-Wall -Werror -Wno-long-long -Wno-variadic-macros";
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06E3187FE168474096992905 /* Build configuration list for PBXProject "freeglut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD8B5FBAC874121A008E7CE /* Debug */,
+				E436878106AC49429F505FF3 /* Release */,
+				8518D6E5D9FF4DFEAD64F95C /* MinSizeRel */,
+				6E5F4E047708416DA0FC707B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		95181FAC334445EFB2E77993 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10D2F067CAE4CADA2070972 /* Debug */,
+				5C6EF8D7014241068F20CD85 /* Release */,
+				0F31EF06FBE346B1A634929C /* MinSizeRel */,
+				E4AA31466AAD4CE096E6CDDE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		974F67FE895D409F8212D9DE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17552D43036248ABB5540EBD /* Debug */,
+				CB5BFC9C0FAD4E64ACDF87AF /* Release */,
+				B9D3B5AFF7C04A5488ACEF76 /* MinSizeRel */,
+				D4EA5178CBC94DBEA997C629 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BF98385835D7457AA81083BC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D32B6102464468A8FC106A /* Debug */,
+				6B061519404E4255823D4202 /* Release */,
+				BB402051245449A0AC70E375 /* MinSizeRel */,
+				A4ADEC3CE6D94D3192332D0B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F0E104EBA79E431B94B03C41 /* Build configuration list for PBXNativeTarget "freeglut_static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F4A0234D514ECFA5BF748B /* Debug */,
+				41D2CA1FFB4A495A9B1623AD /* Release */,
+				FFAB7D257F3F4881B7A7FEAD /* MinSizeRel */,
+				1CDA42A627B145898A2724E2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FFAD3A0B9315446D958968A9 /* Build configuration list for PBXNativeTarget "freeglut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06AED2CD960443DE8085938E /* Debug */,
+				00BB9C9355EC4D8397DE7740 /* Release */,
+				480AFEB79A6247AD915B177B /* MinSizeRel */,
+				BE1AD72485EF4ABFB056E300 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F50270DC13544E50913D7BB1 /* Project object */;
+}
