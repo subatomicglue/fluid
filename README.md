@@ -1,7 +1,7 @@
 
 # collection of realtime fluidsim code demos...
 
-This is basically my personal sandbox to play with 2D and 3D realtime fluid dynamics capable of rendering incompressable liquids like water (and secondarily fire/smoke).
+This is a collection of 2D and 3D realtime fluid dynamics code demos which are capable of simulating & rendering incompressable liquids like water (and secondarily fire/smoke).
 
 Feel free to open Issue tracker with suggestions on other useful code demos, and I'll collect here!
 
