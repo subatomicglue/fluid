@@ -1,5 +1,5 @@
 
-# Fluid simulation in C++ based on "Real-Time Fluid Dynamics for Games" by Jos Stam
+# Fluid simulation in C++ based on Stam's "Real-Time Fluid Dynamics for Games"
 
 Clone of https://github.com/surajiyer/Fluid-Simulation
 
