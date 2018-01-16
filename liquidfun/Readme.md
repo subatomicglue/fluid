@@ -30,7 +30,7 @@ Executing a Sample
 
 If you download latest source from [liquidfun](http://google.github.io/liquidfun/), or from their [releases](https://github.com/google/liquidfun/releases), you may find errors (I found these in the 1.1.0 release).
 
-If you get linker problems with X11
+## If you get linker problems with X11
 ```
 clang: error: no such file or directory: '/opt/local/lib/libX11.dylib'
 clang: error: no such file or directory: '/opt/local/lib/libXext.dylib'
@@ -46,7 +46,7 @@ to CMakeLists.txt, after the line
 project(Box2D)
 ```
 
-If you get:
+## If you get:
 ```
 liquidfun/Box2D/Box2D/Particle/b2ParticleSystem.cpp:55:57: error: shifting a negative signed value is undefined [-Werror,-Wshift-negative-value]
                                                     (-1 << xShift));
